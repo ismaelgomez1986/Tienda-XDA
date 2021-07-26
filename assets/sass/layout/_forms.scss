@@ -1,0 +1,54 @@
+.form {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: $smoky-black;
+    color: $white;
+
+    @media (max-width: 991px) {
+        width: 93%;
+        height: 22vh;
+        order: 4;
+    }
+
+    @media (max-width: 576px) {
+        width: 93%;
+        height: 22vh;
+        order: 4;
+    }
+
+    &__title {
+        padding: 2rem 7rem 0 3rem;
+        font-size: $xx-large;
+        font-family: $old-standard;
+        font-weight: $font-bold;
+
+        @media (max-width: 991px) {
+            padding: 1.5rem 7rem 0 3rem;
+        }
+    }
+
+    &__label {
+        font-size: $medium;
+        font-family: $old-standard;
+        padding-bottom: 1rem;
+        font-weight: $font-regular;
+
+        @media (max-width: 991px) {
+            padding-bottom: .5rem;
+        }
+    }
+
+    &__input {
+        padding: 0 7rem 3rem 3rem;
+    }
+
+    &__input input {
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+}

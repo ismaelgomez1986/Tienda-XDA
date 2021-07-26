@@ -1,0 +1,39 @@
+/*Base styles*/
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: $white;
+    padding: 0;
+    margin: 0;
+
+    @media (max-width: 991px) {
+        width: 99vw;
+    }
+
+    @media (max-width: 576px) {
+        width: 96vw;
+    }
+
+    @media (max-width: 390px) {
+        width: 94vw;
+    }
+}
+
+/*
+body * {
+    border: 2px solid ;
+}
+*/
+.container-fluid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33vw 5vw 31vw 31vw;
+    grid-template-rows: 10vh 65vh 25vh;
+    padding: 0;
+
+    @media (max-width: 991px) {
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
