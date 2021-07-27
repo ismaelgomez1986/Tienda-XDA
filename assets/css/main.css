@@ -10106,13 +10106,17 @@ h3 {
 }
 
 .aside h2 {
-  transform: rotate(90deg);
   font-family: "Old Standard TT", serif;
   font-weight: 700;
   font-size: 30px;
   width: 5.5vw;
   height: 1rem;
   margin: 0;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
 }
 
 .article {
