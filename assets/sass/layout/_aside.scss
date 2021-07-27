@@ -24,11 +24,15 @@
 }
 
 .aside h2 {
-    transform: rotate(90deg);
     font-family: $old-standard;
     font-weight: $font-bold;
     font-size: $xx-large;
     width: 5.5vw;
     height: 1rem;
     margin: 0;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
 }
