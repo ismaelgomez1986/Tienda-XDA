@@ -37,13 +37,13 @@
 
     &__logo {
         position: relative;
-        width: 100px;
-        height: 100px;
+        width: 10vh;
+        height: 10vh;
         background-color: $smoky-black;
 
         @media (max-width: 576px) {
-            width: 80px;
-            height: 80px;
+            width: 8vh;
+            height: 8vh;
         }
     }
 
@@ -51,10 +51,10 @@
         position: absolute;
         padding: auto auto;
         color: $white;
-        font-size: $xx-large;
+        font-size: $x-large;
         font-weight: $font-bold;
         font-family: $old-standard;
-        left: 15%;
+        left: 20%;
         top: 35%;
         transform: rotate(-90deg);
         -webkit-transform: rotate(-90deg);
@@ -68,7 +68,7 @@
             -moz-transform: rotate(0deg);
             -ms-transform: rotate(0deg);
             -o-transform: rotate(0deg);
-            left: 20%;
+            left: 13%;
             font-size: $x-large;
         }
 

@@ -6,18 +6,6 @@ body {
     background-color: $white;
     padding: 0;
     margin: 0;
-
-    @media (max-width: 991px) {
-        width: 99vw;
-    }
-
-    @media (max-width: 576px) {
-        width: 96vw;
-    }
-
-    @media (max-width: 390px) {
-        width: 94vw;
-    }
 }
 
 /*
@@ -26,6 +14,7 @@ body * {
 }
 */
 .container-fluid {
+    width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 33vw 5vw 31vw 31vw;
